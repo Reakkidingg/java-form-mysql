@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="360" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnMoveL" alignment="1" max="32767" attributes="0"/>
+                  <Component id="btnDefault" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btnMoveR" min="-2" pref="150" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="btnMoveLAll" max="32767" attributes="0"/>
+                  <Component id="btnMoveRAll" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="360" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="96" max="32767" attributes="0"/>
+              <Component id="btnMoveR" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnMoveRAll" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+              <Component id="btnDefault" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Component id="btnMoveL" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnMoveLAll" min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="516" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="list1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="197">
+                <StringItem index="0" value="Afghanistan"/>
+                <StringItem index="1" value="Albania"/>
+                <StringItem index="2" value="Algeria"/>
+                <StringItem index="3" value="Andorra"/>
+                <StringItem index="4" value="Angola"/>
+                <StringItem index="5" value="Antigua and Barbuda"/>
+                <StringItem index="6" value="Argentina"/>
+                <StringItem index="7" value="Armenia"/>
+                <StringItem index="8" value="Australia"/>
+                <StringItem index="9" value="Austria"/>
+                <StringItem index="10" value="Azerbaijan"/>
+                <StringItem index="11" value="Bahamas"/>
+                <StringItem index="12" value="Bahrain"/>
+                <StringItem index="13" value="Bangladesh"/>
+                <StringItem index="14" value="Barbados"/>
+                <StringItem index="15" value="Belarus"/>
+                <StringItem index="16" value="Belgium"/>
+                <StringItem index="17" value="Belize"/>
+                <StringItem index="18" value="Benin"/>
+                <StringItem index="19" value="Bhutan"/>
+                <StringItem index="20" value="Bolivia"/>
+                <StringItem index="21" value="Bosnia and Herzegovina"/>
+                <StringItem index="22" value="Botswana"/>
+                <StringItem index="23" value="Brazil"/>
+                <StringItem index="24" value="Brunei"/>
+                <StringItem index="25" value="Bulgaria"/>
+                <StringItem index="26" value="Burkina Faso"/>
+                <StringItem index="27" value="Burundi"/>
+                <StringItem index="28" value="Cabo Verde"/>
+                <StringItem index="29" value="Cambodia"/>
+                <StringItem index="30" value="Cameroon"/>
+                <StringItem index="31" value="Canada"/>
+                <StringItem index="32" value="Central African Republic (CAR)"/>
+                <StringItem index="33" value="Chad"/>
+                <StringItem index="34" value="Chile"/>
+                <StringItem index="35" value="China"/>
+                <StringItem index="36" value="Colombia"/>
+                <StringItem index="37" value="Comoros"/>
+                <StringItem index="38" value="Congo, Democratic Republic of the"/>
+                <StringItem index="39" value="Congo, Republic of the"/>
+                <StringItem index="40" value="Costa Rica"/>
+                <StringItem index="41" value="Cote d&#x2019;Ivoire"/>
+                <StringItem index="42" value="Croatia"/>
+                <StringItem index="43" value="Cuba"/>
+                <StringItem index="44" value="Cyprus"/>
+                <StringItem index="45" value="Czechia"/>
+                <StringItem index="46" value="Denmark"/>
+                <StringItem index="47" value="Djibouti"/>
+                <StringItem index="48" value="Dominica"/>
+                <StringItem index="49" value="Dominican Republic"/>
+                <StringItem index="50" value="Ecuador"/>
+                <StringItem index="51" value="Egypt"/>
+                <StringItem index="52" value="El Salvador"/>
+                <StringItem index="53" value="Equatorial Guinea"/>
+                <StringItem index="54" value="Eritrea"/>
+                <StringItem index="55" value="Estonia"/>
+                <StringItem index="56" value="Eswatini"/>
+                <StringItem index="57" value="Ethiopia"/>
+                <StringItem index="58" value="Fiji"/>
+                <StringItem index="59" value="Finland"/>
+                <StringItem index="60" value="France"/>
+                <StringItem index="61" value="Gabon"/>
+                <StringItem index="62" value="Gambia"/>
+                <StringItem index="63" value="Georgia"/>
+                <StringItem index="64" value="Germany"/>
+                <StringItem index="65" value="Ghana"/>
+                <StringItem index="66" value="Greece"/>
+                <StringItem index="67" value="Grenada"/>
+                <StringItem index="68" value="Guatemala"/>
+                <StringItem index="69" value="Guinea"/>
+                <StringItem index="70" value="Guinea-Bissau"/>
+                <StringItem index="71" value="Guyana"/>
+                <StringItem index="72" value="Haiti"/>
+                <StringItem index="73" value="Honduras"/>
+                <StringItem index="74" value="Hungary"/>
+                <StringItem index="75" value="Iceland"/>
+                <StringItem index="76" value="India"/>
+                <StringItem index="77" value="Indonesia"/>
+                <StringItem index="78" value="Iran"/>
+                <StringItem index="79" value="Iraq"/>
+                <StringItem index="80" value="Ireland"/>
+                <StringItem index="81" value="Israel"/>
+                <StringItem index="82" value="Italy"/>
+                <StringItem index="83" value="Jamaica"/>
+                <StringItem index="84" value="Japan"/>
+                <StringItem index="85" value="Jordan"/>
+                <StringItem index="86" value="Kazakhstan"/>
+                <StringItem index="87" value="Kenya"/>
+                <StringItem index="88" value="Kiribati"/>
+                <StringItem index="89" value="Kosovo"/>
+                <StringItem index="90" value="Kuwait"/>
+                <StringItem index="91" value="Kyrgyzstan"/>
+                <StringItem index="92" value="Laos"/>
+                <StringItem index="93" value="Latvia"/>
+                <StringItem index="94" value="Lebanon"/>
+                <StringItem index="95" value="Lesotho"/>
+                <StringItem index="96" value="Liberia"/>
+                <StringItem index="97" value="Libya"/>
+                <StringItem index="98" value="Liechtenstein"/>
+                <StringItem index="99" value="Lithuania"/>
+                <StringItem index="100" value="Luxembourg"/>
+                <StringItem index="101" value="Madagascar"/>
+                <StringItem index="102" value="Malawi"/>
+                <StringItem index="103" value="Malaysia"/>
+                <StringItem index="104" value="Maldives"/>
+                <StringItem index="105" value="Mali"/>
+                <StringItem index="106" value="Malta"/>
+                <StringItem index="107" value="Marshall Islands"/>
+                <StringItem index="108" value="Mauritania"/>
+                <StringItem index="109" value="Mauritius"/>
+                <StringItem index="110" value="Mexico"/>
+                <StringItem index="111" value="Micronesia"/>
+                <StringItem index="112" value="Moldova"/>
+                <StringItem index="113" value="Monaco"/>
+                <StringItem index="114" value="Mongolia"/>
+                <StringItem index="115" value="Montenegro"/>
+                <StringItem index="116" value="Morocco"/>
+                <StringItem index="117" value="Mozambique"/>
+                <StringItem index="118" value="Myanmar"/>
+                <StringItem index="119" value="Namibia"/>
+                <StringItem index="120" value="Nauru"/>
+                <StringItem index="121" value="Nepal"/>
+                <StringItem index="122" value="Netherlands"/>
+                <StringItem index="123" value="New Zealand"/>
+                <StringItem index="124" value="Nicaragua"/>
+                <StringItem index="125" value="Niger"/>
+                <StringItem index="126" value="Nigeria"/>
+                <StringItem index="127" value="North Korea"/>
+                <StringItem index="128" value="North Macedonia"/>
+                <StringItem index="129" value="Norway"/>
+                <StringItem index="130" value="Oman"/>
+                <StringItem index="131" value="Pakistan"/>
+                <StringItem index="132" value="Palau"/>
+                <StringItem index="133" value="Palestine"/>
+                <StringItem index="134" value="Panama"/>
+                <StringItem index="135" value="Papua New Guinea"/>
+                <StringItem index="136" value="Paraguay"/>
+                <StringItem index="137" value="Peru"/>
+                <StringItem index="138" value="Philippines"/>
+                <StringItem index="139" value="Poland"/>
+                <StringItem index="140" value="Portugal"/>
+                <StringItem index="141" value="Qatar"/>
+                <StringItem index="142" value="Romania"/>
+                <StringItem index="143" value="Russia"/>
+                <StringItem index="144" value="Rwanda"/>
+                <StringItem index="145" value="Saint Kitts and Nevis"/>
+                <StringItem index="146" value="Saint Lucia"/>
+                <StringItem index="147" value="Saint Vincent and the Grenadines"/>
+                <StringItem index="148" value="Samoa"/>
+                <StringItem index="149" value="San Marino"/>
+                <StringItem index="150" value="Sao Tome and Principe"/>
+                <StringItem index="151" value="Saudi Arabia"/>
+                <StringItem index="152" value="Senegal"/>
+                <StringItem index="153" value="Serbia"/>
+                <StringItem index="154" value="Seychelles"/>
+                <StringItem index="155" value="Sierra Leone"/>
+                <StringItem index="156" value="Singapore"/>
+                <StringItem index="157" value="Slovakia"/>
+                <StringItem index="158" value="Slovenia"/>
+                <StringItem index="159" value="Solomon Islands"/>
+                <StringItem index="160" value="Somalia"/>
+                <StringItem index="161" value="South Africa"/>
+                <StringItem index="162" value="South Korea"/>
+                <StringItem index="163" value="South Sudan"/>
+                <StringItem index="164" value="Spain"/>
+                <StringItem index="165" value="Sri Lanka"/>
+                <StringItem index="166" value="Sudan"/>
+                <StringItem index="167" value="Suriname"/>
+                <StringItem index="168" value="Sweden"/>
+                <StringItem index="169" value="Switzerland"/>
+                <StringItem index="170" value="Syria"/>
+                <StringItem index="171" value="Taiwan"/>
+                <StringItem index="172" value="Tajikistan"/>
+                <StringItem index="173" value="Tanzania"/>
+                <StringItem index="174" value="Thailand"/>
+                <StringItem index="175" value="Timor-Leste"/>
+                <StringItem index="176" value="Togo"/>
+                <StringItem index="177" value="Tonga"/>
+                <StringItem index="178" value="Trinidad and Tobago"/>
+                <StringItem index="179" value="Tunisia"/>
+                <StringItem index="180" value="Turkey"/>
+                <StringItem index="181" value="Turkmenistan"/>
+                <StringItem index="182" value="Tuvalu"/>
+                <StringItem index="183" value="Uganda"/>
+                <StringItem index="184" value="Ukraine"/>
+                <StringItem index="185" value="United Arab Emirates (UAE)"/>
+                <StringItem index="186" value="United Kingdom (UK)"/>
+                <StringItem index="187" value="United States of America (USA)"/>
+                <StringItem index="188" value="Uruguay"/>
+                <StringItem index="189" value="Uzbekistan"/>
+                <StringItem index="190" value="Vanuatu"/>
+                <StringItem index="191" value="Vatican City (Holy See)"/>
+                <StringItem index="192" value="Venezuela"/>
+                <StringItem index="193" value="Vietnam"/>
+                <StringItem index="194" value="Yemen"/>
+                <StringItem index="195" value="Zambia"/>
+                <StringItem index="196" value="Zimbabwe"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnMoveL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMoveLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMoveR">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMoveRActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnDefault">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Default"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDefaultActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="list2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnMoveRAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&gt;&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMoveRAllActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMoveLAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;&lt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMoveLAllActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
